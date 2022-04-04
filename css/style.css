@@ -1,34 +1,44 @@
+/* colore sfondo blu */
 .background-blue{
     background-color: blue;
 }
 
+/* colore testo bianco */
 .text-white{
     color: white;
 }
 
+/* colore di sfondo verde chiaro */
 .background-lightgreen{
     background-color: lightgreen;
 }
 
+/* stile colonne */
 [class*="col"]{
     border: 1px solid white;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
+/* padding nested */
 .padding-different{
     padding: 10px 10px;
 }
 
+/* bordo nested */
 .border-nested{
     border: 2px solid blue;
 }
 
+/* margine sopra 20 px */
 .margin-top-20{
     margin-top: 20px;
 }
 
+/* altezza fissa */
 .height-fixed{
     height: 30px;
 }
