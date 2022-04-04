@@ -1,0 +1,11 @@
+.background-blue{
+    background-color: blue;
+}
+
+.text-white{
+    color: white;
+}
+
+[class*="col"]{
+    border: 1px solid white;
+}
