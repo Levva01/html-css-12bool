@@ -6,8 +6,25 @@
     color: white;
 }
 
+.background-lightgreen{
+    background-color: lightgreen;
+}
+
 [class*="col"]{
     border: 1px solid white;
-    text-align: center;
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.padding-different{
+    padding: 10px 10px;
+}
+
+.border-nested{
+    border: 2px solid blue;
+}
+
+.margin-top-20{
+    margin-top: 20px;
 }
